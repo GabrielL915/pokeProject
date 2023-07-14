@@ -1,0 +1,464 @@
+C:\Users\gabri\OneDrive\Área de Trabalho\projetos\PokemonsMonoRepo\poke-project
+├── .editorconfig
+├── .eslintignore
+├── .eslintrc.json
+├── .git
+|  ├── COMMIT_EDITMSG
+|  ├── config
+|  ├── description
+|  ├── HEAD
+|  ├── hooks
+|  |  ├── applypatch-msg.sample
+|  |  ├── commit-msg.sample
+|  |  ├── fsmonitor-watchman.sample
+|  |  ├── post-update.sample
+|  |  ├── pre-applypatch.sample
+|  |  ├── pre-commit.sample
+|  |  ├── pre-merge-commit.sample
+|  |  ├── pre-push.sample
+|  |  ├── pre-rebase.sample
+|  |  ├── pre-receive.sample
+|  |  ├── prepare-commit-msg.sample
+|  |  ├── push-to-checkout.sample
+|  |  └── update.sample
+|  ├── index
+|  ├── info
+|  |  └── exclude
+|  ├── logs
+|  |  ├── HEAD
+|  |  └── refs
+|  |     └── heads
+|  |        └── master
+|  ├── objects
+|  |  ├── 00
+|  |  |  └── e31d186147842f23097023d788ca2ab1fb615d
+|  |  ├── 02
+|  |  |  └── 6d26c20f2347bb9e1194bc38cf100cd5f62c16
+|  |  ├── 04
+|  |  |  ├── 34444efa67011bf5928316472b4bfb84928be1
+|  |  |  └── d84a9e49ff016c8987f527ced5abf66ab5ca25
+|  |  ├── 05
+|  |  |  └── 6f7c4d0bfde7a05829d16fb3c28d04d93d37b8
+|  |  ├── 06
+|  |  |  └── 3e52575058b8b8f4f683fba5e25cde78f9f5ae
+|  |  ├── 0b
+|  |  |  └── e733b75e53f43a1f9f7047f3561f3c25aa9849
+|  |  ├── 0c
+|  |  |  └── 20e3e1d316d8b99a3a29dbdbb097faa1760e32
+|  |  ├── 0f
+|  |  |  └── 0e8e4b9ad1cc9a97bc890112c28bdc090a8b11
+|  |  ├── 11
+|  |  |  └── f6a686c553b205cc326cc3603aac35486b27be
+|  |  ├── 12
+|  |  |  └── ecafa319f2f4a1b4e71712cd1956968970f7d1
+|  |  ├── 14
+|  |  |  ├── 0b2b3322c9413e471c6fe5e51941a9f24fc67b
+|  |  |  └── 7cfc4f8f814706025c8e9a855dacc3eaa0f40c
+|  |  ├── 16
+|  |  |  └── de2365d275ee26184291dd0067142979006e59
+|  |  ├── 17
+|  |  |  └── 0d1d0e2bb79f769afccef1ae7aa80eb46df63a
+|  |  ├── 20
+|  |  |  └── 4e1b2e177b1671fa1d770ce83b2317ef59f3a4
+|  |  ├── 21
+|  |  |  └── ddb2f55e7723150b5d2f3316769e7aa85343de
+|  |  ├── 22
+|  |  |  └── 5bb3914894e3f8944e58b551bef000ea61991e
+|  |  ├── 26
+|  |  |  └── 8ad2ce2dee88142777bd0f8a53d0b15bbae37a
+|  |  ├── 28
+|  |  |  ├── 157b3b4866fe9c40573d7f747d402fae34a707
+|  |  |  └── fe080d242d98b2ad779f9badbb72aa9f3cd601
+|  |  ├── 29
+|  |  |  └── fb2d111756a74f351a5299f020b310f76311b1
+|  |  ├── 2f
+|  |  |  ├── 3c3ff70c7f318d763861ebb7b7f45bd8711d64
+|  |  |  └── 906031140e0d59babb9d375b9315f01ce281ea
+|  |  ├── 30
+|  |  |  └── 47fc3105ad42903eb13621d5fe328744160660
+|  |  ├── 31
+|  |  |  ├── 7ebcb2336e0833a22dddf0ab287849f26fda57
+|  |  |  └── d5e6188b837bc63c3fdb03e3cbbfc492d2511e
+|  |  ├── 34
+|  |  |  ├── 131efbcbed68fc7fdfc7cfe8efb05f634a5f77
+|  |  |  └── 3dae0ebec2477cd461001653f9ecec55558462
+|  |  ├── 35
+|  |  |  └── 843f22cedf482f88e3e9f5199e9fa0310cf377
+|  |  ├── 36
+|  |  |  ├── 0f9f274c6e352aa731029b764d82992a3818e0
+|  |  |  └── 949df5444a12f7ed3c97a756276d3bf04261ff
+|  |  ├── 3b
+|  |  |  └── f5335e12126466690274d9ec23c9cba7e1d3d2
+|  |  ├── 3c
+|  |  |  └── 3629e647f5ddf82548912e337bea9826b434af
+|  |  ├── 3f
+|  |  |  └── ae8e67f2f3ce0b1a41f8682d32eedb947b7813
+|  |  ├── 42
+|  |  |  ├── cf0a259bf7aa3dcee4ad6b7c2b718d0bb9a617
+|  |  |  └── ea9952de038bd2cfb2f58bf65d4da65581af8b
+|  |  ├── 46
+|  |  |  └── a29a230af80f22298f6a9807964710cb325be8
+|  |  ├── 4a
+|  |  |  └── b325070fa6d2f562295ebb4f4761b52ad4e09b
+|  |  ├── 4b
+|  |  |  └── 89911157314db2c89085fded209741f8816c29
+|  |  ├── 4f
+|  |  |  └── 5a95d663c35591b431bbf42cd5f0550139fa89
+|  |  ├── 51
+|  |  |  ├── 16968798e01ba5753d10115438c810cc71fab7
+|  |  |  └── b9af5269c1df38f3252250d5b46665822374cc
+|  |  ├── 53
+|  |  |  ├── 1ffe4bf485f41e2acc06758591a5834cc6e18c
+|  |  |  └── fbfcdc16724080b9f83d9d9c2b5fa6d7e65e2f
+|  |  ├── 54
+|  |  |  └── 4138be45652abc7bc3873341deacd3f4f90c61
+|  |  ├── 5d
+|  |  |  ├── 56d7cadee4d21e1378d504438ef798c79effd0
+|  |  |  ├── 79693fa53c8353d276b6d7b56112be6d481d58
+|  |  |  └── f6c36bfe0cf4d6514828fa5d60127c4be746de
+|  |  ├── 5e
+|  |  |  ├── 7d53b57faf52f6ba7af8d5f4fa44f2777a0ae7
+|  |  |  └── 98991e84d3a0eed4be66852ad6db96c81b707f
+|  |  ├── 61
+|  |  |  └── a702c21a6d9a6087c4ad537fed00d97da3b939
+|  |  ├── 64
+|  |  |  └── 553b175b1109d40227087360bba86cbaa738fb
+|  |  ├── 6a
+|  |  |  ├── 0850895c2eef6d222e2c9a9dde2e5f587cd1e2
+|  |  |  └── 9bc166d35090df009e0fa74bf4a9a9d740028a
+|  |  ├── 6e
+|  |  |  ├── 87a003da89defd554080af5af93600cc9f91fe
+|  |  |  └── afddf0269e29e9e9c9f7e927ebeebcf16f8b8e
+|  |  ├── 70
+|  |  |  └── 80633278e0eb4070bcd94c8d9f3a240c3338b7
+|  |  ├── 71
+|  |  |  └── 97d031582c90ac7079369094a070e4e364f318
+|  |  ├── 72
+|  |  |  └── f93c2e1925de14ca671f102ad451d22dffa2fc
+|  |  ├── 7a
+|  |  |  └── 48b162f8ca528135a7f62a5dd17e969a91cab5
+|  |  ├── 7b
+|  |  |  └── 4983473c6ec06dd48e4e2c2043bb11f73e34be
+|  |  ├── 7c
+|  |  |  ├── 03df14e4e6106b40144b3b5395d8f4ed541937
+|  |  |  ├── 04543b79cdb19783d5f0b9de5afa881af47467
+|  |  |  └── 44079c5f0948e3a5052aa9c2ed76ca121b7d4e
+|  |  ├── 80
+|  |  |  └── 2c45a2483d6964d536f8f0a19d63af10a8d885
+|  |  ├── 81
+|  |  |  └── db92b9589834d9860a0828d33584945f2e8e75
+|  |  ├── 82
+|  |  |  └── 8cc0f598ca37d35542d69c6da2bcfbca78eac2
+|  |  ├── 83
+|  |  |  ├── 527b724405086d57ae43794a14aec526577e3d
+|  |  |  └── 8033bc64cba7d64831802650c2c5b3a7034322
+|  |  ├── 84
+|  |  |  └── 06561c2a2a9a26d8da13cac122578dea340e80
+|  |  ├── 85
+|  |  |  └── daab3657cbbf039f52992aeee552cac511f5d0
+|  |  ├── 86
+|  |  |  └── 42bcec994ce874bc21e6235d5cde2e5bce6bfe
+|  |  ├── 87
+|  |  |  ├── 62dfe2c6510c01425b35c6cf76371cc0b332c6
+|  |  |  └── 937521f8c16718fe68bba38dbbc54962e69177
+|  |  ├── 8a
+|  |  |  └── e117d96293c675141bebfc2fad8c5df58429d3
+|  |  ├── 8d
+|  |  |  └── 17b8360ba3bc9044032bf22bee668fddb6b69f
+|  |  ├── 90
+|  |  |  ├── 36c20b13ed837d32a2c82096090e097fb83780
+|  |  |  ├── c0a6af6270067531d4dc8aa004e59ac00a70b0
+|  |  |  └── d4ee0072ce3fc41812f8af910219f9eea3c3de
+|  |  ├── 91
+|  |  |  └── 6bab7a7ca1422a34b6c5fc2441c3f776e7a6fc
+|  |  ├── 92
+|  |  |  └── 049739f65e6a89dcd34bca26e34e0cafefc690
+|  |  ├── 94
+|  |  |  └── a054f170e042724eff739540c40c28f3afec92
+|  |  ├── 95
+|  |  |  └── 4de732b0774b37a660ffdbb9692d001f0ac295
+|  |  ├── 96
+|  |  |  └── 62a0cccc5414f1286458cc63da6c0a5a835257
+|  |  ├── 99
+|  |  |  ├── 2e6c9f6734cdb12ebe42ede8c464ae80fe0e4f
+|  |  |  └── 428e1473febd3534100c4ce261c5904b461d8a
+|  |  ├── 9b
+|  |  |  └── 2a121d114b68dcdb5b834ebca032814b499a74
+|  |  ├── 9c
+|  |  |  └── 5fce974fb20ece2002241728a378f4615e7c3d
+|  |  ├── 9d
+|  |  |  └── 9c0db55bb1e91c5f2e7b64a02bc6bf69fc7cb5
+|  |  ├── a1
+|  |  |  └── 24382d7359de273872890f525f7f3535afa7df
+|  |  ├── a2
+|  |  |  └── ce765296b7abfc5cc1d7124f1e12dd1e18b3e1
+|  |  ├── a6
+|  |  |  └── 7fd385056860713ee4b7e33fc38fba247a108b
+|  |  ├── ab
+|  |  |  └── 1eeeb335d7890571dda105cf8bc1ea77086866
+|  |  ├── ae
+|  |  |  └── 8ad3bd658b6f92052ed5229f79473cd5aa8f96
+|  |  ├── b7
+|  |  |  └── 3cce6c4252d903e714d0064f196ce09206c4cc
+|  |  ├── b8
+|  |  |  └── cf8ed547b6fb41949405980eb9150ed5c20c5a
+|  |  ├── b9
+|  |  |  └── 3937bf29b401ab8fdfbffb9a2bfe9fbfd5bac1
+|  |  ├── bb
+|  |  |  └── c02998ea642105e5da5f0541af4b1bc75ff578
+|  |  ├── bd
+|  |  |  └── cf974455d91bf7decd6b45a24a9cf316457dc3
+|  |  ├── c1
+|  |  |  ├── 765b2e667ac7ed3a95250f9139ff2470d2fddb
+|  |  |  ├── 9ed9219a222585982407e29f154e644cf23b2f
+|  |  |  └── e2dd4e8be6f4fe3dca35d044fd912ff41b1c18
+|  |  ├── c4
+|  |  |  └── 7fc6731e2679bede9b92b869b4a1e397635351
+|  |  ├── c5
+|  |  |  └── c7ceda09ffa970c7bd386f96e314149b7b1f32
+|  |  ├── cd
+|  |  |  └── 8cedeff3dafacf6784c3f993b45c19b76cab87
+|  |  ├── d0
+|  |  |  ├── dbd1b889d5f72e43372daf28cade22779acbef
+|  |  |  └── e6e8a9d566fcf80820d841710c67e2d83b192e
+|  |  ├── d5
+|  |  |  ├── 15a2e1965e0a450358732d482666111f5960e8
+|  |  |  └── 64d0bc3dd917926892c55e3706cc116d5b165e
+|  |  ├── d6
+|  |  |  └── a7760460c2e1ebd0ceb6b6e7e82b536cee721d
+|  |  ├── d7
+|  |  |  └── 6d10c6a8c3c5e0ed6ced6d3b3a8ed1ff811098
+|  |  ├── dd
+|  |  |  └── 73c41109b3f958295b50001150b2bd1d1ccc1b
+|  |  ├── de
+|  |  |  ├── 40734ad05cfa664bcdd2ab02fa26942f4bfede
+|  |  |  └── 8007e18ed765cb3d04b8faec397d65961be453
+|  |  ├── df
+|  |  |  └── f210a841eb3893066314660135eb0c534f041d
+|  |  ├── e0
+|  |  |  └── 1cf19bd9d5ff6c8db1b3c2e180e5d79e6999b1
+|  |  ├── e6
+|  |  |  ├── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|  |  |  └── a97a43e0777b37ac21ef0748b1315cc7d041d5
+|  |  ├── e8
+|  |  |  └── 66ca836a59f87066c0dc219cb4607f2664f91d
+|  |  ├── ee
+|  |  |  └── dda8510c74e94a309119d43d7bf636e2f85a8e
+|  |  ├── f0
+|  |  |  ├── 09f8d255a6d66152e2abbd7ed2467660ebf6a0
+|  |  |  └── 78ddcec1e89a1e122d2d64501a73d1a8a484d4
+|  |  ├── f1
+|  |  |  └── f64be7d9f6dfa3ebfe416c96e0493ffb31d9a5
+|  |  ├── f8
+|  |  |  └── d8ed5a6e49410a92fbc89e9eddcbe488bcb8b6
+|  |  ├── f9
+|  |  |  └── 5aeb4b0d2d02695b9bd2bef878b61c3b7d3def
+|  |  ├── fb
+|  |  |  ├── 3c96b4274b283a3ebfe29456f2e18bf84b0a55
+|  |  |  └── d430f6d7f08675a42e62aee3b3d895ef65d31c
+|  |  ├── fc
+|  |  |  ├── 172ef9c5fee6beaab03d44c68202daab51bc07
+|  |  |  └── ef464a5ce5e8fa567efcd1e9c7cb6b3290f081
+|  |  ├── ff
+|  |  |  ├── 44b5a41e588d3def221542b301e07201b0ef9c
+|  |  |  └── f4a41d444a486d4cf163be19f8601e0510c270
+|  |  ├── info
+|  |  └── pack
+|  └── refs
+|     ├── heads
+|     |  └── master
+|     └── tags
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── .vscode
+|  └── extensions.json
+├── apps
+|  ├── .gitkeep
+|  ├── back-end
+|  |  ├── .eslintrc.json
+|  |  ├── jest.config.ts
+|  |  ├── project.json
+|  |  ├── src
+|  |  |  ├── app
+|  |  |  |  ├── app.controller.spec.ts
+|  |  |  |  ├── app.controller.ts
+|  |  |  |  ├── app.module.ts
+|  |  |  |  ├── app.service.spec.ts
+|  |  |  |  └── app.service.ts
+|  |  |  ├── assets
+|  |  |  |  └── .gitkeep
+|  |  |  ├── auth
+|  |  |  |  ├── auth.controller.ts
+|  |  |  |  ├── auth.guard.ts
+|  |  |  |  ├── auth.module.ts
+|  |  |  |  ├── auth.service.ts
+|  |  |  |  └── constants.ts
+|  |  |  ├── database
+|  |  |  |  ├── database.module.ts
+|  |  |  |  └── database.providers.ts
+|  |  |  ├── main.ts
+|  |  |  ├── pokemon
+|  |  |  |  ├── dto
+|  |  |  |  |  ├── create-pokemon.dto.ts
+|  |  |  |  |  └── update-pokemon.dto.ts
+|  |  |  |  ├── entities
+|  |  |  |  |  └── pokemon.entity.ts
+|  |  |  |  ├── pokemon.controller.spec.ts
+|  |  |  |  ├── pokemon.controller.ts
+|  |  |  |  ├── pokemon.module.ts
+|  |  |  |  ├── pokemon.service.spec.ts
+|  |  |  |  └── pokemon.service.ts
+|  |  |  └── users
+|  |  |     ├── dto
+|  |  |     |  ├── create-user.dto.ts
+|  |  |     |  └── update-user.dto.ts
+|  |  |     ├── entities
+|  |  |     |  └── user.entity.ts
+|  |  |     ├── providers
+|  |  |     |  ├── users.providers.ts
+|  |  |     |  ├── users.service.impl.ts
+|  |  |     |  └── users.service.ts
+|  |  |     ├── users.controller.spec.ts
+|  |  |     ├── users.controller.ts
+|  |  |     ├── users.module.ts
+|  |  |     └── users.service.spec.ts
+|  |  ├── tsconfig.app.json
+|  |  ├── tsconfig.json
+|  |  ├── tsconfig.spec.json
+|  |  └── webpack.config.js
+|  └── front-end
+|     ├── .eslintrc.json
+|     ├── jest.config.ts
+|     ├── project.json
+|     ├── src
+|     |  ├── app
+|     |  |  ├── app.component.css
+|     |  |  ├── app.component.html
+|     |  |  ├── app.component.spec.ts
+|     |  |  ├── app.component.ts
+|     |  |  ├── app.module.ts
+|     |  |  ├── app.routes.ts
+|     |  |  └── nx-welcome.component.ts
+|     |  ├── assets
+|     |  |  └── .gitkeep
+|     |  ├── favicon.ico
+|     |  ├── index.html
+|     |  ├── main.ts
+|     |  ├── styles.css
+|     |  └── test-setup.ts
+|     ├── tsconfig.app.json
+|     ├── tsconfig.editor.json
+|     ├── tsconfig.json
+|     └── tsconfig.spec.json
+├── dist
+|  └── apps
+|     └── back-end
+|        ├── assets
+|        |  └── .gitkeep
+|        ├── main.js
+|        └── main.js.map
+├── docker-compose.yml
+├── jest.config.ts
+├── jest.preset.js
+├── libs
+|  ├── .gitkeep
+|  ├── api
+|  |  ├── .eslintrc.json
+|  |  ├── jest.config.ts
+|  |  ├── project.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  |  ├── index.ts
+|  |  |  ├── lib
+|  |  |  |  └── api.module.ts
+|  |  |  └── test-setup.ts
+|  |  ├── tsconfig.json
+|  |  ├── tsconfig.lib.json
+|  |  └── tsconfig.spec.json
+|  ├── data-access
+|  |  ├── .eslintrc.json
+|  |  ├── jest.config.ts
+|  |  ├── project.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  |  ├── index.ts
+|  |  |  ├── lib
+|  |  |  |  ├── data-access.module.ts
+|  |  |  |  ├── login-data-access.service.ts
+|  |  |  |  ├── pokemons-data-access.service.ts
+|  |  |  |  └── users-data-access.service.ts
+|  |  |  └── test-setup.ts
+|  |  ├── tsconfig.json
+|  |  ├── tsconfig.lib.json
+|  |  └── tsconfig.spec.json
+|  ├── feature
+|  |  ├── .eslintrc.json
+|  |  ├── jest.config.ts
+|  |  ├── project.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  |  ├── index.ts
+|  |  |  ├── lib
+|  |  |  |  ├── dashboard
+|  |  |  |  |  ├── dashboard.component.css
+|  |  |  |  |  ├── dashboard.component.html
+|  |  |  |  |  ├── dashboard.component.spec.ts
+|  |  |  |  |  └── dashboard.component.ts
+|  |  |  |  ├── feature.module.ts
+|  |  |  |  ├── login
+|  |  |  |  |  ├── login.component.css
+|  |  |  |  |  ├── login.component.html
+|  |  |  |  |  ├── login.component.spec.ts
+|  |  |  |  |  └── login.component.ts
+|  |  |  |  └── pokemon
+|  |  |  |     ├── pokemon.component.css
+|  |  |  |     ├── pokemon.component.html
+|  |  |  |     ├── pokemon.component.spec.ts
+|  |  |  |     └── pokemon.component.ts
+|  |  |  └── test-setup.ts
+|  |  ├── tsconfig.json
+|  |  ├── tsconfig.lib.json
+|  |  └── tsconfig.spec.json
+|  ├── ui-components
+|  |  ├── .eslintrc.json
+|  |  ├── jest.config.ts
+|  |  ├── project.json
+|  |  ├── README.md
+|  |  ├── src
+|  |  |  ├── index.ts
+|  |  |  ├── lib
+|  |  |  |  ├── header
+|  |  |  |  |  ├── header.component.css
+|  |  |  |  |  ├── header.component.html
+|  |  |  |  |  ├── header.component.spec.ts
+|  |  |  |  |  └── header.component.ts
+|  |  |  |  └── ui-components.module.ts
+|  |  |  └── test-setup.ts
+|  |  ├── tsconfig.json
+|  |  ├── tsconfig.lib.json
+|  |  └── tsconfig.spec.json
+|  └── utils
+|     ├── .eslintrc.json
+|     ├── jest.config.ts
+|     ├── project.json
+|     ├── README.md
+|     ├── src
+|     |  ├── index.ts
+|     |  ├── lib
+|     |  |  └── utils.module.ts
+|     |  └── test-setup.ts
+|     ├── tsconfig.json
+|     ├── tsconfig.lib.json
+|     └── tsconfig.spec.json
+├── nx.json
+├── package-lock.json
+├── package.json
+├── README.md
+├── tools
+|  └── tsconfig.tools.json
+└── tsconfig.base.json
+
+directory: 7148 file: 39295
+
+ignored: directory (122)
