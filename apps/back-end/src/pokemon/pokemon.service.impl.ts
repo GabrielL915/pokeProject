@@ -28,6 +28,17 @@ export class PokemonServiceImpl implements PokemonService {
                       name: type.type.name,
                     };
                   }),
+                  abilities: response.data.abilities.map((ability) => {
+                    return {
+                      name: ability.ability.name,
+                    };
+                  }),
+                  stats: response.data.stats.map((stat) => {
+                    return {
+                      name: stat.stat.name,
+                      value: stat.base_stat,
+                    };
+                  }),
                 };
               }),
             );

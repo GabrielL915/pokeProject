@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  
+  :root {
+    --text: #000000;
+    --background: #ffffff;
+    --primary: #007acc;
+    --secondary: #ffe243;
+    --accent: #f83b40;
+  
+    --textHeader: #ffffff;
+    --backgroundHeader: #222327;
+    --main: #29fd53;
+  }
+  body {
+    min-height: 100vh;
+    background-color: #2A2A2A;
+    
+  }
