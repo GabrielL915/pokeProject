@@ -23,6 +23,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
+import { UiComponentsModule } from '@poke-project/ui-components';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.compo
     MatCardModule,
     MatGridListModule,
     MatToolbarModule,
+    UiComponentsModule
   ],
   declarations: [
     DashboardComponent,

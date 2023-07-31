@@ -8,8 +8,10 @@
   right: 10px;
   font-size: 24px;
   cursor: pointer;
-  color: var(--text);
-  z-index: 2;
+  color: var(
+    --text
+  ); /* Defina a cor do ícone de acordo com a sua preferência */
+  z-index: 2; /* Certifique-se de que o ícone fique acima dos outros elementos */
 }
 
 .pokemon-ball {
@@ -28,7 +30,7 @@
 }
 
 .pokemon-ball::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,7 +43,7 @@
 }
 
 .pokemon-ball::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -233,238 +235,90 @@
   overflow: hidden;
 }
 
-@media (max-width: 980px) {
-    .close-icon {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 24px;
-        cursor: pointer;
-        color: var(--text);
-        z-index: 2;
-      }
-      
-      .pokemon-ball {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;
-        border: 6px solid #0f2634;
-        overflow: hidden;
-        opacity: 0.2;
-      
-        z-index: 1;
-      }
-      
-      .pokemon-ball::after {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 70px;
-        height: 70px;
-        background: #fff;
-        border: 15px solid #0f2634;
-        border-radius: 50%;
-      }
-      
-      .pokemon-ball::before {
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 40px;
-        height: 40px;
-        background: #fff;
-        border-radius: 50%;
-        z-index: 2;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-      }
-      
-      .red-ball {
-        top: 0;
-        left: 0;
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 46%;
-        background: #0b1b25;
-      }
-      
-      .ball-line {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        margin: auto 0;
-        width: 100%;
-        height: 8%;
-        background: #0f2634;
-        border-left: 5px solid #0f2634;
-        border-right: 5px solid #0f2634;
-      }
-      
-      .white-ball {
-        bottom: 0;
-        left: 0;
-        position: absolute;
-        width: 100%;
-        height: 46%;
-        background: #fff;
-      }
-      
-      .card-container {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #defde0;
-        color: #fff;
-        width: 60%;
-        height: 80%;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 2em;
-        border: 2px solid var(--accent);
-      }
-      
-      .info-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 1em;
-        background-color: #defde0;
-      }
-      
-      .image-container {
-        background: #fff;
-        padding: 0.5em;
-        height: 15.7em;
-        width: 15.7em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-bottom: 0.5em;
-      }
-      
-      .image-container img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      
-      .title {
-        background-color: rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        text-align: center;
-        padding: 0.5em;
-        font-size: 17px;
-        color: var(--text);
-      }
-      
-      .title p {
-        margin: 0;
-      }
-      
-      .description {
-        text-align: center;
-        padding: 1rem;
-        font-size: 17px;
-        color: var(--text);
-      }
-      
-      .description h2 {
-        margin: 0;
-        padding: 0.5em;
-        font-size: 2em;
-      }
-      
-      .description ul {
-        display: flex;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        justify-content: center;
-      }
-      
-      .description li {
-        background-color: rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        margin: 0.5em;
-        padding: 0.5em;
-        font-size: 14px;
-        color: var(--text);
-      }
-      
-      .description p {
-        margin: 0;
-      }
-      
-      .stats-container {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        padding: 0.5em;
-        border-radius: 10px;
-        margin-left: 10em;
-        color: var(--text);
-      }
-      
-      .stats-container h2 {
-        margin-top: 1em;
-      }
-      
-      .stats {
-        margin-top: 1em;
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-      }
-      
-      .stat {
-        display: flex;
-        align-items: center;
-      }
-      
-      .stats p {
-        margin: 0.3em;
-        padding-right: 0.5em;
-        color: var(--text);
-        width: 120px;
-      }
-      
-      .progress-bar {
-        width: 100%;
-        height: 8px;
-        background-color: #ccc !important;
-        position: relative;
-        border-radius: 10px;
-        padding: 0.5em;
-        margin: 0.5em;
-      }
-      
-      .fill {
-        height: 100%;
-        background-color: var(--accent) !important;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: calc(100% - 43%);
-        border-radius: 10px;
-        overflow: hidden;
-      }
-      
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-container {
+    margin-left: 0;
+    margin-top: 1em;
+  }
 }
 
+@media (max-width: 576px) {
+  .pokemon-ball {
+    width: 200px;
+    height: 200px;
+  }
+  .pokemon-ball::before {
+    width: 30px;
+    height: 30px;
+  }
+  .pokemon-ball::after {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #0f2634;
+  }
+  .image-container {
+    height: 8em;
+    width: 8em;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .description h2 {
+    font-size: 1.5em;
+  }
+  .description li {
+    font-size: 12px;
+  }
+  .stats-container {
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  .stats-container h2 {
+    font-size: 1.8em;
+  }
+  .stats p {
+    font-size: 12px;
+  }
+  .progress-bar {
+    padding: 0.3em;
+  }
+}
 
+@media (max-width: 400px) {
+  .pokemon-ball {
+    width: 150px;
+    height: 150px;
+  }
+  .pokemon-ball::before {
+    width: 20px;
+    height: 20px;
+  }
+  .pokemon-ball::after {
+    width: 40px;
+    height: 40px;
+    border: 8px solid #0f2634;
+  }
+  .image-container {
+    height: 6em;
+    width: 6em;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .description h2 {
+    font-size: 1.3em;
+  }
+  .description li {
+    font-size: 10px;
+  }
+  .stats-container h2 {
+    font-size: 1.5em;
+  }
+  .stats p {
+    font-size: 10px;
+  }
+}

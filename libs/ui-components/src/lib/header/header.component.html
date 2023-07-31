@@ -1,1 +1,27 @@
-<p>header works!</p>
+<header>
+    <a href="/dashboard" class="logo">
+      <img src="assets/pikachu.png" alt="logo" class="logo-img" />
+    </a>
+    <nav class="navbar" [ngClass]="{ open: isMenuOpen }">
+      <ul class="navbar-items">
+        <li><a href="/dashboard">Pokemons</a></li>
+        <li><a href="#">Teams</a></li>
+      </ul>
+    </nav>
+  
+    <div class="search-container" [ngClass]="{ open: isMenuOpen }">
+      <i id="search-icon" class="ri-search-line"></i>
+      <input type="text" class="search-bar" placeholder="Search..." />
+    </div>
+  
+    <div class="main">
+      <a href="/login" class="user">
+        <span>Sign in</span>
+      </a>
+      <a class="register" href="#">Sign up</a>
+      <div class="menu-icon" id="menu-icon" (click)="toggleMenu()">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </header>
+  
