@@ -1,29 +1,28 @@
 <div class="container">
-    <mat-card
-      class="card"
-      *ngFor="let item of dados"
-      [ngStyle]="{ 'background-color': getTypeColor(item.types[0]?.name) }"
-      (click)="showDetails(item)"
-    >
-      <div class="image-container">
-        <img mat-card-image [src]="item.image" alt="" />
-      </div>
-      <mat-card-title class="title">
-        <p>#{{ item.id }}</p>
-      </mat-card-title>
-      <mat-card-content class="description">
-        <h2>{{ item.name }}</h2>
-        <p>type:</p>
-        <ul>
-          <li *ngFor="let type of item.types">{{ type.name }}</li>
-        </ul>
-      </mat-card-content>
-    </mat-card><!-- 
-    <app-pokemon-details
-      *ngIf="selectedPokemon"
-      [pokemon]="selectedPokemon"
-      (close)="selectedPokemon = null"
-    ></app-pokemon-details> -->
-  </div>
-  <button mat-button (click)="loadMore()">Carregar mais</button>
-  
+  <mat-card
+    class="card"
+    *ngFor="let item of dados"
+    [ngStyle]="{ 'background-color': getTypeColor(item.types[0]?.name) }"
+    (click)="showDetails(item)"
+  >
+    <div class="image-container">
+      <img mat-card-image [src]="item.image" alt="" />
+    </div>
+    <mat-card-title class="title">
+      <p>#{{ item.id }}</p>
+    </mat-card-title>
+    <mat-card-content class="description">
+      <h2>{{ item.name }}</h2>
+      <p>type:</p>
+      <ul>
+        <li *ngFor="let type of item.types">{{ type.name }}</li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+  <poke-project-pokemon-details
+    *ngIf="selectedPokemon"
+    [pokemon]="selectedPokemon"
+    (close)="selectedPokemon = null"
+  ></poke-project-pokemon-details>
+</div>
+<button mat-button (click)="loadMore()">Carregar mais</button>

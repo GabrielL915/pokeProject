@@ -22,6 +22,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
+import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 
 @NgModule({
   imports: [
@@ -40,7 +41,12 @@ import { PokemonComponent } from './pokemon/pokemon.component';
     MatGridListModule,
     MatToolbarModule,
   ],
-  declarations: [DashboardComponent, LoginComponent, PokemonComponent],
+  declarations: [
+    DashboardComponent,
+    LoginComponent,
+    PokemonComponent,
+    PokemonDetailsComponent,
+  ],
   exports: [DashboardComponent, LoginComponent, PokemonComponent],
 })
 export class FeatureModule {}
