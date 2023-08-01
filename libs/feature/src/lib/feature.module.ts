@@ -25,6 +25,7 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 import { UiComponentsModule } from '@poke-project/ui-components';
 import { TeamComponent } from './team/team.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { TeamComponent } from './team/team.component';
     PokemonComponent,
     PokemonDetailsComponent,
     TeamComponent,
+    RegisterComponent,
   ],
-  exports: [DashboardComponent],
+  exports: [DashboardComponent, LoginComponent, RegisterComponent],
 })
 export class FeatureModule {}

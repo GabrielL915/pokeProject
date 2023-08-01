@@ -1,12 +1,11 @@
 import { Route } from '@angular/router';
-import { DashboardComponent} from '@poke-project/feature';
-import { FeatureModule } from '@poke-project/feature';
-import { LoginComponent } from 'libs/feature/src/lib/login/login.component';
+import { DashboardComponent, LoginComponent, RegisterComponent} from '@poke-project/feature';
 
 export const appRoutes: Route[] = [
-    { path: '', redirectTo: '/login', pathMatch: 'full' },
+    { path: '', redirectTo: '/register', pathMatch: 'full' },
     {path: 'dashboard', component: DashboardComponent},
     {path: 'login', component: LoginComponent},
+    {path: 'register', component: RegisterComponent}
     /* {
         path: 'pokemon',
         loadChildren: () =>
