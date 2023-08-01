@@ -24,6 +24,7 @@ import { LoginComponent } from './login/login.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonDetailsComponent } from './pokemon-details/pokemon-details.component';
 import { UiComponentsModule } from '@poke-project/ui-components';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   imports: [
@@ -41,14 +42,15 @@ import { UiComponentsModule } from '@poke-project/ui-components';
     MatCardModule,
     MatGridListModule,
     MatToolbarModule,
-    UiComponentsModule
+    UiComponentsModule,
   ],
   declarations: [
     DashboardComponent,
     LoginComponent,
     PokemonComponent,
     PokemonDetailsComponent,
+    TeamComponent,
   ],
-  exports: [DashboardComponent, LoginComponent, PokemonComponent],
+  exports: [DashboardComponent],
 })
 export class FeatureModule {}

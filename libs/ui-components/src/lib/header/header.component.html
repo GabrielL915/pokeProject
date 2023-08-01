@@ -1,4 +1,4 @@
-<header>
+<!-- <header>
     <a href="/dashboard" class="logo">
       <img src="assets/pikachu.png" alt="logo" class="logo-img" />
     </a>
@@ -24,4 +24,23 @@
       </div>
     </div>
   </header>
-  
+   -->
+<mat-toolbar class="nav" color="primary">
+  <button mat-icon-button (click)="toggleMenu()">
+    <mat-icon id="menu" >menu</mat-icon>
+    <img src="assets/pokeball.png" alt="logo" class="logo-img" />
+  </button>
+  <span>Poke Project</span>
+  <span class="spacer"></span>
+  <button mat-icon-button>
+    <mat-icon>search</mat-icon>
+  </button>
+  <button mat-icon-button>
+    <mat-icon>account_circle</mat-icon>
+  </button>
+
+  <div *ngIf="isMenuOpen" class="menu-items">
+    <button mat-button>Pokemon</button>
+    <button mat-button>Team</button>
+  </div>
+</mat-toolbar>

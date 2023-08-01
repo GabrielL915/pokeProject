@@ -1,6 +1,12 @@
 .disable-click {
     pointer-events: none;
   }
+
+  h1 {
+    text-align: center;
+    color: var(--text);
+    margin-top: 15px;
+  }
   
   .container {
     align-items: space-between;
@@ -9,7 +15,7 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
-    margin-top: 120px; 
+    margin-top: 20px; 
     margin-bottom: 20px; 
   }
   
